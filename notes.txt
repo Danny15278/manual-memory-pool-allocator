@@ -1,0 +1,8 @@
+
+Memory Pools:
+	- Fixed block sizes
+	- Provides constant time (de)allocations in a preallocated buffer of memory.
+	- Avoids memory fragmentation, with accurately sized blocks.
+
+In C++, the developer needs to know the dimensions of each block in advance.
+Maximum block count depends on runtime, but block sizes should be known at compile time.

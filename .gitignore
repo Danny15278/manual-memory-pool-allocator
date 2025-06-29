@@ -1,0 +1,17 @@
+#build directories
+build/
+cmake-build*/
+
+
+#Cmake cache/temp files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+#executables
+allocator_main
+allocator_tests
+
+.DS_Store
