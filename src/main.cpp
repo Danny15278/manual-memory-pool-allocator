@@ -15,7 +15,7 @@ private:
 	Chunk* freeListHead;
 
 public:
-	MemoryPool(size_t chunkSize, size_t chunkCount) : chunkSize(chunkSize), chunkCount(chunkCount), poolMemory(nullptr), freeListHead(nullptr) {
+	MemoryPool(const size_t chunkSize,  const size_t chunkCount) : chunkSize(chunkSize), chunkCount(chunkCount), poolMemory(nullptr), freeListHead(nullptr) {
 		poolMemory = operator new(chunkSize * chunkCount);
 
 		if (chunkSize < sizeof(Chunk*)) {
