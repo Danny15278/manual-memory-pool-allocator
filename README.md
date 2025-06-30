@@ -1,6 +1,6 @@
 # A Manual Memory Pool Allocator
 
-PLEASE NOT THAT THIS PROJECT IS STILL IN PROGRESS AND NOT FULLY COMPLETED WITH ALL INTENDED FEATURES.
+PLEASE NOTE THAT THIS PROJECT IS STILL IN PROGRESS AND NOT FULLY COMPLETED WITH ALL INTENDED FEATURES.
 
 This is a simple project that creates a fixed-size memory pool allocator, written up in C++. 
 
@@ -14,7 +14,7 @@ Features include:
 
 Build Instructions (THIS PROJECT STILL IN TESTING AND IS INCOMPLETE)
 
-git clone https://github.com/Danny15278/manual-memory-pool-allocator.git`
+git clone https://github.com/Danny15278/manual-memory-pool-allocator.git
 cd manual-memory-pool-allocator
 mkdir build
 cd build
