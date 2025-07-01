@@ -20,6 +20,8 @@ add_executable(allocator_main src/main.cpp src/allocator.cpp)
 
 add_executable(allocator_tests tests/allocator_test.cpp src/allocator.cpp)
 
+target_link_libraries(allocator_tests PRIVATE Catch2::Catch2WithMain)
+
 target_include_directories(allocator_tests PRIVATE src)
 target_link_libraries(allocator_tests PRIVATE Catch2::Catch2WithMain)
 
